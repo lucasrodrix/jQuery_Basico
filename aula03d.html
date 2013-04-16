@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".slidedown").click(function(){
+					$(".panel").slideToggle(1000);
+				});
+			});
+		</script>	
+		<style type="text/css">
+			div.panel,p.slidedown{margin: 0;padding: 5px;text-align: center;background: #e5eecc;border: solid 1px #c3c3c3;}
+			div.panel{height: 120px;display: none;}
+		</style>
+	</head>
+	<body>
+		<h2>Aula 3 - Efeitos</h2>
+		<div class="panel">
+			<p>Paragrafo de Teste</p>
+			<p>Outro Paragrafo de Teste</p>
+		</div>
+		<p class="slidedown">Mostrar/Ocultar Painel</p>
+	</body>
+</html>

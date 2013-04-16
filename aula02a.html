@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			var jq=jQuery.noConflict();
+			jq(document).ready(function(){
+
+				jq("button").click(function(){
+					jq("p").hide();
+				});				
+			});
+		</script>
+	</head>
+	<body>
+		<h2>Isso é um titulo</h2>
+		<p>Isto é um paragrafo</p>
+		<p>Outro paragrafo</p>
+		<button>Clique aqui</button>
+	</body>
+</html>
+<!--
+	Comentários
+		$(seletor)
+
+		$("p") - seleciona todas as tags 'p'.
+		$("p.teste") - seleciona todas as tags 'p' com classe 'teste'.
+		$("p#teste") - seleciona a tag 'p' com id 'teste'.
+		$("[href]") - seleciona todos os elementos com atributo 'href'
+		$("[href='#']") - seleciona todos os href com valor igual a '#'.
+		$("[href!='#']") - seleciona todos os href com valor diferente de '#'
+		$("[href='.jpg']") - seleciona todos os href com valor terminado em '.jpg'
+
+		.acao();
+		.ready(function);
+		.click(function);
+		.dbclick(function);
+		.focus(function);
+		.mouseover(function);
+		.change(function);
+		.keypress(function);
+		.submit(function);
+		.resize(function);
+-->

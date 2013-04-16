@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("button").click(function(){
+					$("div").animate({height:300},"slow");
+					$("div").animate({width:300},"slow");
+					$("div").animate({height:100},"slow");
+					$("div").animate({width:100},"slow");
+				});
+			});
+		</script>	
+		<style type="text/css">
+			div{background: #98bf21;width: 100px;height: 100px;position: relative;}
+		</style>
+	</head>
+	<body>
+		<h2>Aula 4 - Efeitos</h2>
+		<button>Iniciar Animação</button><br/><br/>
+		<div></div>
+	</body>
+</html>

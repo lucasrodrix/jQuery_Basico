@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("button").click(function(){
+					$("p").hide();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<h2>Isso é um titulo</h2>
+		<p>Isto é um paragrafo</p>
+		<p>Outro paragrafo</p>
+		<button>Clique aqui</button>
+	</body>
+</html>
+<!--
+	Comentários
+		$(seletor).acao();
+		$(this).hide() - oculta o elemento atual.
+		$("p").hide() - oculta todos os parágrafos.
+		$("p.teste").hide() - oculta todos os parágrafos com classe teste.
+		$("#teste").hide() - oculta elemento com id teste.
+			
+-->

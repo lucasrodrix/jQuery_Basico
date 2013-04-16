@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#hide").click(function(){
+					$("p").hide(1000);
+				});
+				$("#show").click(function(){
+					$("p").show(1000);
+				});
+				$("#toggle").click(function(){
+					$("p").toggle(1000);
+				});
+			});
+		</script>	
+	</head>
+	<body>
+		<h2>Aula 3 - Efeitos</h2>
+		<p>Isto é um paragrafo</p>
+		<button id="hide">Ocultar</button>
+		<button id="show">Mostrar</button>
+		<button id="toggle">Alternar</button>
+	</body>
+</html>
